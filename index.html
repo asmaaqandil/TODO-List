@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO List</title>
+   
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <div class="todo-container">
+    <form id="todo-form">
+        <input type="text" placeholder="New-TODO" id="todo-input">
+        <button type="submit" id="todo-btn">ADD+</button>
+
+    </form>
+    <div class="boxces-container">
+     <div class="box" id="to-do">
+        <h3 class="heading">TODO</h3>
+        <p class="task" draggable="true">learning React.js</p>
+        <p class="task" draggable="true">learning Talwind.css</p>
+        <p class="task" draggable="true">learning English</p>
+     </div>
+     <div class="box" id="doing">
+        <h3 class="heading">DOING</h3>
+        <p class="task" draggable="true">learning python</p>
+        <p class="task" draggable="true">learning Django</p>
+ 
+     </div>
+     <div class="box" id="done">
+        <h3 class="heading">DONE</h3>
+        <p class="task" draggable="true">learning python</p>
+
+     </div>
+    </div>
+  </div>  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  <script src="main.js"></script>
+  
+</body>
+</html>
